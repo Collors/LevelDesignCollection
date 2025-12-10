@@ -3,19 +3,128 @@
 <head>
     <title>我的知识库导航</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; margin: 2rem; }
-        a { color: #0969da; text-decoration: none; display: block; padding: 0.5rem 0; }
-        a:hover { text-decoration: underline; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            margin: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { 
+            color: #2c3e50; 
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+            text-align: center;
+        }
+        .link-item {
+            display: flex;
+            align-items: center;
+            margin: 1rem 0;
+            padding: 0.8rem;
+            border-left: 4px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .link-item:hover {
+            background-color: #f8f9fa;
+            border-left-color: #3498db;
+            transform: translateX(5px);
+        }
+        .link-number {
+            background: #3498db;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        .link-icon {
+            margin-right: 0.8rem;
+            font-size: 1.2em;
+            width: 20px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+        .link-content {
+            flex-grow: 1;
+        }
+        .link-content a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: 500;
+            display: block;
+        }
+        .link-content a:hover {
+            color: #3498db;
+        }
+        .link-url {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-top: 0.2rem;
+            display: block;
+        }
     </style>
 </head>
 <body>
-    <h1>知识库索引</h1>
-    <!-- 从这里开始，替换或添加您的链接 -->
-    <a href="https://ludostudio.feishu.cn/wiki/B2A9woFmyiFdGMkHym6cYwxxOnof">欢迎来到游猫饼读书会-飞书云文档</a>
-    <a href="https://book.leveldesignbook.com/process/blockout/metrics?utm_source=chatgpt.com">Metrics | The Level Design Book</a>
-    <a href="https://ludostudio.feishu.cn/wiki/WZURwt0JwilW1AkvCPgcvZe1nCc">系统性关卡设计思路-飞书云文档</a>
-    <a href="https://portfolio-url.com">The Megastructure- Eric Chocholacek's Portfolio</a>
-    <a href="https://artstation-url.com">ArtStation-Collors</a>
-    <!-- 链接结束 -->
+    <div class="container">
+        <h1>📚 知识库索引</h1>
+        
+        <div class="link-item">
+            <div class="link-number">1</div>
+            <div class="link-icon">🎮</div>
+            <div class="link-content">
+                <a href="https://wiki.eegames.com/zh/development/gameplaydesign/game-planning-basics-how-to-design-a-level">卢德工作室_关卡设计基础</a>
+                <span class="link-url">https://wiki.eegames.com/zh/development/gameplaydesign/game-planning-basics-how-to-design-a-level</span>
+            </div>
+        </div>
+        
+        <div class="link-item">
+            <div class="link-number">2</div>
+            <div class="link-icon">📖</div>
+            <div class="link-content">
+                <a href="https://wmyx.notion.site/?v=1fd536d3ca1280feb720000c9cf3c4f7&p=229536d3ca128094a589c5565860590f&pm=s">無名遊戲的知识库</a>
+                <span class="link-url">https://wmyx.notion.site/?v=1fd536d3ca1280feb720000c9cf3c4f7&p=229536d3ca128094a589c5565860590f&pm=s</span>
+            </div>
+        </div>
+        
+        <div class="link-item">
+            <div class="link-number">3</div>
+            <div class="link-icon">📘</div>
+            <div class="link-content">
+                <a href="https://book.leveldesignbook.com/process/blockout/metrics?utm_source=chatgpt.com">关卡设计之书（The Level Design Book）</a>
+                <span class="link-url">https://book.leveldesignbook.com/process/blockout/metrics?utm_source=chatgpt.com</span>
+            </div>
+        </div>
+        
+        <div class="link-item">
+            <div class="link-number">4</div>
+            <div class="link-icon">💡</div>
+            <div class="link-content">
+                <a href="https://ludostudio.feishu.cn/wiki/WZURwt0JWilWlAkvCPgcvZe1nCc">系统性关卡设计思路</a>
+                <span class="link-url">https://ludostudio.feishu.cn/wiki/WZURwt0JWilWlAkvCPgcvZe1nCc</span>
+            </div>
+        </div>
+        
+        <div class="link-item">
+            <div class="link-number">5</div>
+            <div class="link-icon">🕷️</div>
+            <div class="link-content">
+                <a href="https://ketul1776.medium.com/making-combat-spaces-for-spidermanps4-a72abf051792">蜘蛛侠1关卡设计参数</a>
+                <span class="link-url">https://ketul1776.medium.com/making-combat-spaces-for-spidermanps4-a72abf051792</span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
