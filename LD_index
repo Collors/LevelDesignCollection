@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的知识库导航</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 2rem; }
+        a { color: #0969da; text-decoration: none; display: block; padding: 0.5rem 0; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>知识库索引</h1>
+    <!-- 从这里开始，替换或添加您的链接 -->
+    <a href="https://ludostudio.feishu.cn/wiki/B2A9woFmyiFdGMkHym6cYwxxOnof">欢迎来到游猫饼读书会-飞书云文档</a>
+    <a href="https://book.leveldesignbook.com/process/blockout/metrics?utm_source=chatgpt.com">Metrics | The Level Design Book</a>
+    <a href="https://ludostudio.feishu.cn/wiki/WZURwt0JwilW1AkvCPgcvZe1nCc">系统性关卡设计思路-飞书云文档</a>
+    <a href="https://portfolio-url.com">The Megastructure- Eric Chocholacek's Portfolio</a>
+    <a href="https://artstation-url.com">ArtStation-Collors</a>
+    <!-- 链接结束 -->
+</body>
+</html>
